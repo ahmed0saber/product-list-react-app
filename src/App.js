@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1>Product List React App</h1>
+        <h1>Product List</h1>
         <div className="table">
           <Items items={this.state.items} del={this.deleteItem}/>
           <AddItem add={this.addItem}/>
